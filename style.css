@@ -175,3 +175,46 @@ footer {
 .skills-logos img:hover {
   transform: scale(1.1);
 }
+/* Additional Responsive Styles */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero h2 {
+    font-size: 1.8em;
+  }
+
+  .hero p {
+    font-size: 1em;
+  }
+
+  .profile-pic {
+    width: 80%;
+    max-width: 250px;
+    height: auto;
+  }
+
+  .skills-logos img {
+    width: 50px;
+    height: 50px;
+  }
+
+  section {
+    padding: 40px 15px;
+  }
+}
